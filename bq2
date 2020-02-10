@@ -1,0 +1,14 @@
+#!/bin/bash
+
+sql_command=`cat $1`
+check_gb=$2
+
+
+if [[ $check_gb = "1" ]]; then
+    cat $1 | bq query --use_legacy_sql=false \
+        --dry_run 
+else 
+    cat $1 | bq query --use_legacy_sql=false 
+fi
+
+

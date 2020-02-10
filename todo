@@ -1,0 +1,16 @@
+-------- recent interest ------
+how many products that user buy in 1 session (1 row in _GA) 
+    user_id, list_products_ecom_purchase in 1 session, list_categoryies tuong ung
+
+how many categories --------------------------------------------------
+    user_id, list_categories_added_to_cart in 1 session
+
+
+interact with many 
+
+
+with regular-customer (buy items each week)
+
+
+
+with non-regular-customer
