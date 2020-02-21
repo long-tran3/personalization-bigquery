@@ -6,7 +6,8 @@ how many categories --------------------------------------------------
     user_id, list_categories_added_to_cart in 1 session
 
 
-interact with many 
+interact with same primary_category for how many session
+
 
 
 with regular-customer (buy items each week)

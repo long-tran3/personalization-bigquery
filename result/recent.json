@@ -1,0 +1,21 @@
+query from '20200101' and '20200210' on ga
+
+if we have 8 user interact with tiki.vn in day 1. Then just 1 user in them will have interaction in the next 2 days
+[
+  {
+    "numDay": "826315",
+    "numDayWith2DayBefore": "109938",
+    "numDayWith7DayBefore": "189188"
+  }
+]
+
+
+if we have 371 session. So just 27 is same category with what user search in 2 days ago
+[
+  {
+    "total": "3711334",
+    "Day2Before": "275929",
+    "Day7Before": "412821",
+    "day14Before": "469688"
+  }
+]
